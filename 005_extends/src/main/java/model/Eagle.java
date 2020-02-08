@@ -6,7 +6,7 @@ public class Eagle extends Bird {
     public Eagle() {
     }
 
-    public Eagle(int age, int weight, double flySpeed, String prey) {
+    public Eagle(int age, String weight, double flySpeed, String prey) {
         super(age, weight, flySpeed);
         this.prey = prey;
     }
@@ -17,5 +17,9 @@ public class Eagle extends Bird {
 
     public void setPrey(String prey) {
         this.prey = prey;
+    }
+
+    public void hunt() {
+        System.out.println("I just hunted a " + this.prey);
     }
 }

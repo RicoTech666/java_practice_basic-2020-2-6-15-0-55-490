@@ -2,12 +2,12 @@ package model;
 
 public class Animal {
     private int age;
-    private int weight;
+    private String weight;
 
     public Animal() {
     }
 
-    public Animal(int age, int weight) {
+    public Animal(int age, String weight) {
         this.age = age;
         this.weight = weight;
     }
@@ -20,11 +20,11 @@ public class Animal {
         this.age = age;
     }
 
-    public int getWeight() {
+    public String getWeight() {
         return weight;
     }
 
-    public void setWeight(int weight) {
+    public void setWeight(String  weight) {
         this.weight = weight;
     }
 
